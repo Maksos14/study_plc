@@ -1,0 +1,38 @@
+{ CustomGroupDefinition('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa', '') }
+
+VAR_INPUT
+    BUTTON_01 : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('e8cb44b1-14fc-445d-b585-6572cadc6339')};
+    BUTTON_VIRTUAL : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('388eae7d-9ad1-4efd-a24e-612b248896d7')};
+END_VAR
+
+VAR_OUTPUT
+    LED : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('9bd01ebe-8f0f-4e6e-9056-b12d970e4fd3')};
+    MESSAGE : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('8fe6c3f6-f2b8-420d-802a-5e31cf30075d')};
+    visual_counter : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('84a56341-d8bf-48b4-b690-f641237304cb')};
+    tap_counter : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('3383d3d9-1443-45b3-8b6d-19f8e13be4af')};
+END_VAR
+
+VAR
+    bLastButtonState : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('a4cbba39-bf2b-4fa4-928c-916492eef580')};
+    bIsBlinking : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('6c1af5c5-e500-4b1a-9ada-44c7728415d6')};
+    counter : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('f7420e70-7723-422f-978c-6ac68a318c26')};
+    TON_Button : TON { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('067fbeae-ecc4-4369-a374-ae7aa32bf966')};
+END_VAR
+
+VAR PUBLIC
+    TON_Blink : TON { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('c9fe0adb-dd9d-40bd-9eda-6131e734701b')};
+END_VAR
+
+VAR_EXTERNAL
+    TIMER : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('18525b79-0705-42ff-a041-425de0718181')};
+    TIME_TO_DINT : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('d489808e-de79-4910-b332-a53596208153')};
+END_VAR
+
+VAR_OUTPUT
+    blinkPeriod : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('167eec8b-910e-46af-96dc-b3ff765038bc')};
+END_VAR
+
+VAR_EXTERNAL
+    UINT_TO_TIME : BOOL { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('50b19a25-87b5-4a40-b95c-e9d877216690')};
+    HMI_blinkPeriod : UINT { CustomGroupReference('b4ee16d5-6a89-4b2f-9dbc-11c1b006edaa') } {Id('2a660bd8-b1c4-43e8-83f1-2e75e552f98e')};
+END_VAR

@@ -1,0 +1,65 @@
+{ CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
+
+VAR_EXTERNAL
+    BUTTON_01 : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('9d7c30a0-79f5-45dd-a2bb-9fe8afbc4b20')};
+    LED : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('db36f1cd-cd5f-4305-b62e-abae8295d826')};
+END_VAR
+
+VAR_GLOBAL
+    bIsBlinking : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('3276df67-48e3-40bd-b5cf-bc160ecd9fbf')};
+    bLastButtonState : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('10668f7e-212e-495e-babd-0d329f145ecd')};
+    iBlinkCounter : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('633e2c32-1f58-4700-8324-7b0311ee680d')};
+    bCircleColor : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('395212f8-a20c-46ba-a35b-0a9dcef59665')};
+END_VAR
+
+VAR_EXTERNAL
+    counter : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1701992e-3612-4291-8731-59990abaa8c7')};
+    visual_counter : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a891a596-3b4d-4571-8810-f9bcfd9d09ef')};
+    tap_counter : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a860a130-5121-4456-9e22-e20d3fb6a4d2')};
+    TIMER : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4b805dd1-1514-4363-b349-f760ae2ef950')};
+    MESSAGE : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cdc6c82f-f8a2-467f-856e-2adb650c9a4f')};
+    BUTTON_VIRTUAL : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e5aff69d-3d8e-4836-bed5-791e50e3ecc8')};
+    buttonEdge : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('871ce396-bc43-4252-ae3b-373c06ca63c2')};
+    buttonCurrent : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('1c2f3c40-a93c-4385-8462-9e9265ab8571')};
+END_VAR
+
+VAR
+    FB21 : FB2 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('54922560-dfac-4da8-a43d-80a38bc860ff')};
+    FB22 : FB2 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0440c849-ac9a-4a62-b46c-6479d15f63f8')};
+END_VAR
+
+VAR_EXTERNAL
+    TON_Blink : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('319f1959-78a6-4cf2-81bc-d2dcea5df4e2')};
+END_VAR
+
+VAR
+    FB23 : FB2 { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('546f7820-cb98-4ff5-a0ac-031b3fae9602')};
+END_VAR
+
+VAR_EXTERNAL
+    blinkPeriod : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('be068b81-cd0d-40ca-b639-6780bc643a35')};
+    TIME_TO_DINT : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cb415087-eb6f-4bb9-bdf8-b33e5cb765ee')};
+    HMI_blinkPeriod : UINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('e62754f2-c4ad-4517-bcdd-83995e7e8a4c')};
+END_VAR
+
+VAR
+    FB1 : FB { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a21cc78b-fc91-401c-989f-5a3f00dbf2b6')};
+    FB2 : FB { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('57562de0-dacc-42f6-93d3-63030d3f5b88')};
+    FB3 : FB { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('74436edf-7137-4b89-ad20-294e1d8fb0ba')};
+    FB4 : FB { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('58145396-09ad-45fc-99ee-1bc74df87d60')};
+    FB5 : FB { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('605fd930-4c27-426e-82da-72f9c501b4c8')};
+    UTC_in_Second1 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('561bc80b-119c-49be-b34c-1341fe2128dd')};
+    UTC_in_Second2 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('187551ab-48a8-4595-8129-f3d7c5e3eedb')};
+    UTC_in_Second3 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8356627b-db3f-42a6-bade-665229c3f576')};
+    UTC_in_Second4 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4f025b1b-41c1-47cd-a402-58daae036f8e')};
+    UTC_in_Second5 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('dae2764d-2f23-4bc9-8ce6-f3115f05c329')};
+END_VAR
+
+VAR_EXTERNAL
+    TimestampMs : ULINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('bceea6ea-516d-42c0-a9bf-c36901277ad8')};
+    ManualRTC : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('cec4a686-64db-40d8-a2d6-88bfda80289a')};
+END_VAR
+
+VAR
+    UTC_in_Second6 : UTC_in_Second { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('34ce032f-88bf-46b0-9d48-2bfe1af360d8')};
+END_VAR

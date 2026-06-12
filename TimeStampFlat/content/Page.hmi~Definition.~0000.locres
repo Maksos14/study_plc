@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>146</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="122" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Выберите UTC:" />
+  </Resources>
+  <Resources ID="123" Name="Text2.Text">
+    <Values LanguageID="0" LocalValue="Timestamp" />
+  </Resources>
+  <Resources ID="125" Name="TextInput1.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="127" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue="Введите дату в RTC:" />
+  </Resources>
+  <Resources ID="128" Name="TextInput2.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="140" Name="Text9.Text">
+    <Values LanguageID="0" LocalValue="13 символов" />
+  </Resources>
+  <Resources ID="143" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="Ручной RTC" />
+  </Resources>
+  <Resources ID="144" Name="TextInput3.Text">
+    <Values LanguageID="0" LocalValue="DT#2026-01-01-08:00:30.65" />
+  </Resources>
+  <Resources ID="145" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Пример" />
+  </Resources>
+</ResourcesDocument>

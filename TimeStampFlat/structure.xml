@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <file_system name="Safety" id="Safety~0000" />
+  <file name="StorageProperties.xml" id="StorageProperties~0000.xml" />
+  <file name="StorageContent.xml" id="StorageContent~0000.xml" />
+  <folder name="PROJECT">
+    <file name="PROJECT.proj" id="PROJECT~PROJECT~0000.proj" />
+    <folder name="Hardware">
+      <file name="749246d0-1459-49a8-bf66-4ad927698232.DataLink" id="Hardware~749246d0-14~0000.DataLink" />
+      <file name="749246d0-1459-49a8-bf66-4ad927698232.Transport" id="Hardware~749246d0-14~0001.Transport" />
+      <file name="VersionHistory.usermeta" id="Hardware~VersionHist~0000.usermeta" />
+      <file name="Description.en.html" id="Hardware~Description~0000.html" />
+      <file name="749246d0-1459-49a8-bf66-4ad927698232.projset" id="Hardware~749246d0-14~0002.projset" />
+      <folder name="CFG_46F5AF0FECE9464092B7474BFD27DC56">
+        <file name="PlmConfiguration.plmc" id="CFG_46F5A~PlmConfigu~0000.plmc" />
+        <file name="DataList.dl" id="CFG_46F5AF0~DataList~0000.dl" />
+        <file name="abc44c61-81f6-4986-973f-116eb728026e.ds" id="CFG_46F5A~abc44c61-8~0000.ds" />
+        <folder name="RES_3E8444E273CD403F835D179846909252">
+          <file name="DataList.dlr4var" id="RES_3E8444E~DataList~0000.dlr4var" />
+          <file name="IOConfiguration.ioc" id="RES_3E844~IOConfigur~0000.ioc" />
+          <file name="ResourceSettings.set" id="RES_3E844~ResourceSe~0000.set" />
+          <file name="GlobalVariables.var" id="RES_3E844~GlobalVari~0000.var" />
+          <file name="Arp.Plc.Eclr.libmeta" id="RES_3E844~Arp.Plc.Ec~0000.libmeta" />
+          <file name="EclrComponent.compmeta" id="RES_3E844~EclrCompon~0000.compmeta" />
+          <file name="Arp.Plc.Eclr.acf.config" id="RES_3E844~Arp.Plc.Ec~0001.config" />
+        </folder>
+        <folder name="PLCnext">
+          <file name="EsmConfiguration.esmc" id="PLCnext~EsmConfigura~0000.esmc" />
+        </folder>
+        <folder name="EIP_Master">
+          <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="EIP_Maste~Controller~0000.compmeta" />
+          <file name="Arp.Io.EthernetIP.acf.config" id="EIP_Maste~Arp.Io.Eth~0001.config" />
+        </folder>
+        <folder name="HMI_Server">
+          <file name="DataList.dlr4hmi" id="HMI_Server~DataList~0000.dlr4hmi" />
+          <file name="Arp.Plc.Ehmi.libmeta" id="HMI_Serve~Arp.Plc.Eh~0000.libmeta" />
+          <file name="EhmiComponent.compmeta" id="HMI_Serve~EhmiCompon~0000.compmeta" />
+          <file name="Arp.Plc.Ehmi.acf.config" id="HMI_Serve~Arp.Plc.Eh~0001.config" />
+          <file name="HmiConfiguration.xml" id="HMI_Serve~HmiConfigu~0000.xml" />
+          <folder name="Application">
+            <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
+            <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
+            <folder name="Page.hmi">
+              <file name="Variables.hmivar" id="Page.hmi~Variables~0000.hmivar" />
+              <file name="Definition.hmipagedef" id="Page.hmi~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Page.hmi~Parameters~0000.hmiparams" />
+              <file name="Definition.hmipagedef.locres" id="Page.hmi~Definition.~0000.locres" />
+            </folder>
+            <folder name="Login.hmi">
+              <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
+              <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Login.hmi~Parameters~0000.hmiparams" />
+              <file name="Definition.hmipagedef.locres" id="Login.hmi~Definition~0001.locres" />
+            </folder>
+            <folder name="Page1.hmi">
+              <file name="Variables.hmivar" id="Page1.hmi~Variables~0001.hmivar" />
+              <file name="Definition.hmipagedef" id="Page1.hmi~Definition~0002.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Page1.hmi~Parameters~0001.hmiparams" />
+              <file name="Definition.hmipagedef.locres" id="Page1.hmi~Definition~0003.locres" />
+            </folder>
+          </folder>
+        </folder>
+        <folder name="ALARM_Server">
+          <file name="Alarms.almwrk" id="ALARM_Server~Alarms~0000.almwrk" />
+          <file name="Arp.Plc.Alarm.libmeta" id="ALARM_Ser~Arp.Plc.Al~0000.libmeta" />
+          <file name="AlarmProgram.compmeta" id="ALARM_Ser~AlarmProgr~0000.compmeta" />
+          <file name="AlarmProgram.progmeta" id="ALARM_Ser~AlarmProgr~0001.progmeta" />
+          <file name="Arp.Plc.Alarm.acf.config" id="ALARM_Ser~Arp.Plc.Al~0001.config" />
+        </folder>
+        <folder name="PN_Master">
+          <file name="abc44c61-81f6-4986-973f-116eb728026e.L7_4_PN_Master.station" id="PN_Master~abc44c61-8~0000.station" />
+          <file name="Arp.Io.Pn.libmeta" id="PN_Master~Arp.Io.Pn~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="PN_Master~Controller~0000.compmeta" />
+          <file name="Arp.Io.Pn.acf.config" id="PN_Master~Arp.Io.Pn.~0000.config" />
+        </folder>
+        <folder name="AXLF_Master">
+          <file name="abc44c61-81f6-4986-973f-116eb728026e.L7_ax_AXLF_Master.station" id="AXLF_Mast~abc44c61-8~0000.station" />
+          <file name="Arp.Io.Axl.libmeta" id="AXLF_Mast~Arp.Io.Axl~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="AXLF_Mast~Controller~0000.compmeta" />
+          <file name="Arp.Io.Axl.acf.config" id="AXLF_Mast~Arp.Io.Axl~0001.config" />
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="e67d24e6-3d9b-4499-8c87-053b05984984.ds" id="AXL_F_DI8~e67d24e6-3~0000.ds" />
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="b9710679-5552-450f-af30-b69527e467cd.ds" id="AXL_F_AI2~b9710679-5~0000.ds" />
+          </folder>
+          <folder name="AXL_F_CNT2_INC2_1F">
+            <file name="29919429-fa63-4477-9dae-265b64a7ca27.ds" id="AXL_F_CNT~29919429-f~0000.ds" />
+          </folder>
+        </folder>
+        <folder name="IB_Master">
+          <file name="abc44c61-81f6-4986-973f-116eb728026e.L7_8_IB_Master.station" id="IB_Master~abc44c61-8~0000.station" />
+          <file name="Arp.Io.Ib.libmeta" id="IB_Master~Arp.Io.Ib~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="IB_Master~Controller~0000.compmeta" />
+          <file name="Arp.Io.Ib.acf.config" id="IB_Master~Arp.Io.Ib.~0000.config" />
+        </folder>
+        <folder name="IB_RemoteMaster">
+          <file name="abc44c61-81f6-4986-973f-116eb728026e.L7_9_IB_RemoteMaster.station" id="IB_Remote~abc44c61-8~0000.station" />
+          <file name="Arp.Io.Ib.libmeta" id="IB_RemoteM~Arp.Io.Ib~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="IB_Remote~Controller~0000.compmeta" />
+          <file name="Arp.Io.Ib.acf.config" id="IB_Remote~Arp.Io.Ib.~0000.config" />
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Logical Elements">
+      <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
+      <folder name="HelpTemplate">
+        <file name="collapse_toggle.png" id="HelpTempl~collapse_t~0000.png" />
+        <file name="image.png" id="HelpTemplate~image~0000.png" />
+        <file name="Styles.css" id="HelpTemplate~Styles~0000.css" />
+        <file name="TemplateFunction.htm" id="HelpTempl~TemplateFu~0000.htm" />
+        <file name="TemplateFunctionBlock.htm" id="HelpTempl~TemplateFu~0001.htm" />
+        <file name="TemplateOverview.htm" id="HelpTempl~TemplateOv~0000.htm" />
+      </folder>
+      <folder name="main_prg.pou">
+        <file name="Metadata.meta" id="main_prg.po~Metadata~0000.meta" />
+        <file name="Variables.var" id="main_prg.p~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="main_prg.~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="main_prg.~Descriptio~0000.html" />
+        <file name="Description.rtf" id="main_prg.~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="main_prg.~Variables.~0000.locres" />
+        <file name="User.locres" id="main_prg.pou~User~0000.locres" />
+        <file name="Code.st" id="main_prg.pou~Code~0000.st" />
+      </folder>
+      <folder name="HMI Symbol.hmisymbol">
+        <file name="Variables.hmivar" id="HMI Symbol~Variables~0000.hmivar" />
+        <file name="VersionHistory.usermeta" id="HMI Symbo~VersionHis~0000.usermeta" />
+        <file name="Description.en.html" id="HMI Symbo~Descriptio~0000.html" />
+        <file name="Definition.locres" id="HMI Symbo~Definition~0000.locres" />
+        <file name="Definition" id="HMI Symbo~Definition~0001" />
+        <file name="Parameters" id="HMI Symbo~Parameters~0000" />
+        <file name="Thumbnail" id="HMI Symbol~Thumbnail~0000" />
+      </folder>
+      <folder name="FB1.pou">
+        <file name="Metadata.meta" id="FB1.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="FB1.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="FB1.pou~VersionHisto~0000.usermeta" />
+        <file name="Description.html" id="FB1.pou~Description~0000.html" />
+        <file name="Description.rtf" id="FB1.pou~Description~0001.rtf" />
+        <file name="Variables.var.locres" id="FB1.pou~Variables.va~0000.locres" />
+        <file name="User.locres" id="FB1.pou~User~0000.locres" />
+        <file name="Code.st" id="FB1.pou~Code~0000.st" />
+      </folder>
+      <folder name="FB.pou">
+        <file name="Metadata.meta" id="FB.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="FB.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="FB.pou~VersionHistor~0000.usermeta" />
+        <file name="Description.html" id="FB.pou~Description~0000.html" />
+        <file name="Description.rtf" id="FB.pou~Description~0001.rtf" />
+        <file name="Variables.var.locres" id="FB.pou~Variables.var~0000.locres" />
+        <file name="User.locres" id="FB.pou~User~0000.locres" />
+        <file name="Code.st" id="FB.pou~Code~0000.st" />
+      </folder>
+      <folder name="FB2.pou">
+        <file name="Metadata.meta" id="FB2.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="FB2.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="FB2.pou~VersionHisto~0000.usermeta" />
+        <file name="Description.html" id="FB2.pou~Description~0000.html" />
+        <file name="Description.rtf" id="FB2.pou~Description~0001.rtf" />
+        <file name="Variables.var.locres" id="FB2.pou~Variables.va~0000.locres" />
+        <file name="User.locres" id="FB2.pou~User~0000.locres" />
+        <file name="Code.st" id="FB2.pou~Code~0000.st" />
+      </folder>
+      <folder name="ParseRTC_Time.pou">
+        <file name="Metadata.meta" id="ParseRTC_Ti~Metadata~0000.meta" />
+        <file name="Variables.var" id="ParseRTC_T~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="ParseRTC_~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="ParseRTC_~Descriptio~0000.html" />
+        <file name="Description.rtf" id="ParseRTC_~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="ParseRTC_~Variables.~0000.locres" />
+        <file name="User.locres" id="ParseRTC_Time.p~User~0000.locres" />
+        <file name="Code.st" id="ParseRTC_Time.p~Code~0000.st" />
+      </folder>
+      <folder name="TimeStamp.pou">
+        <file name="Metadata.meta" id="TimeStamp.p~Metadata~0000.meta" />
+        <file name="Variables.var" id="TimeStamp.~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="TimeStamp~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="TimeStamp~Descriptio~0000.html" />
+        <file name="Description.rtf" id="TimeStamp~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="TimeStamp~Variables.~0000.locres" />
+        <file name="User.locres" id="TimeStamp.pou~User~0000.locres" />
+        <file name="Code.st" id="TimeStamp.pou~Code~0000.st" />
+      </folder>
+      <folder name="UTC_in_Second.pou">
+        <file name="Metadata.meta" id="UTC_in_Seco~Metadata~0000.meta" />
+        <file name="Variables.var" id="UTC_in_Sec~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="UTC_in_Se~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="UTC_in_Se~Descriptio~0000.html" />
+        <file name="Description.rtf" id="UTC_in_Se~Descriptio~0001.rtf" />
+        <file name="Variables.var.locres" id="UTC_in_Se~Variables.~0000.locres" />
+        <file name="User.locres" id="UTC_in_Second.p~User~0000.locres" />
+        <file name="Code.st" id="UTC_in_Second.p~Code~0000.st" />
+      </folder>
+    </folder>
+    <folder name="RecycleBin">
+      <folder name="01eeb352-c799-488c-ba2a-fbe7da475088">
+        <file name="01eeb352-c799-488c-ba2a-fbe7da475088" id="01eeb352-~01eeb352-c~0000" />
+        <folder name="AXL_F_DI16_1_DO8_2-2A_2H">
+          <file name="d282f0ef-0574-4275-bf47-c739fd877883.iprop" id="AXL_F_DI1~d282f0ef-0~0000.iprop" />
+          <file name="d282f0ef-0574-4275-bf47-c739fd877883.properties" id="AXL_F_DI1~d282f0ef-0~0001.properties" />
+          <file name="d282f0ef-0574-4275-bf47-c739fd877883.par" id="AXL_F_DI1~d282f0ef-0~0002.par" />
+          <file name="d282f0ef-0574-4275-bf47-c739fd877883.ds" id="AXL_F_DI1~d282f0ef-0~0003.ds" />
+          <file name="DataList.dlr2pl4pd" id="AXL_F_DI16_~DataList~0000.dlr2pl4pd" />
+          <file name="DataList.dlr4pd" id="AXL_F_DI16_~DataList~0001.dlr4pd" />
+        </folder>
+      </folder>
+      <folder name="176811d1-55f8-4f02-a56e-eec483343bea">
+        <file name="176811d1-55f8-4f02-a56e-eec483343bea" id="176811d1-~176811d1-5~0000" />
+        <folder name="AXL_F_DI8_1_DO8_1_1H">
+          <file name="28281034-76f5-4d75-97bc-3ca08fc436b6.iprop" id="AXL_F_DI8~28281034-7~0000.iprop" />
+          <file name="28281034-76f5-4d75-97bc-3ca08fc436b6.properties" id="AXL_F_DI8~28281034-7~0001.properties" />
+          <file name="28281034-76f5-4d75-97bc-3ca08fc436b6.par" id="AXL_F_DI8~28281034-7~0002.par" />
+          <file name="28281034-76f5-4d75-97bc-3ca08fc436b6.ds" id="AXL_F_DI8~28281034-7~0003.ds" />
+          <file name="DataList.dlr2pl4pd" id="AXL_F_DI8_1~DataList~0000.dlr2pl4pd" />
+          <file name="DataList.dlr4pd" id="AXL_F_DI8_1~DataList~0001.dlr4pd" />
+        </folder>
+      </folder>
+      <folder name="37b1e776-1c3d-48a5-abca-15cbbd114cfa">
+        <file name="37b1e776-1c3d-48a5-abca-15cbbd114cfa" id="37b1e776-~37b1e776-1~0000" />
+        <folder name="Page1.hmi">
+          <file name="Definition.hmipagedef" id="Page1.hmi~Definition~0000.hmipagedef" />
+          <file name="Parameters.hmiparams" id="Page1.hmi~Parameters~0000.hmiparams" />
+          <file name="Definition.hmipagedef.locres" id="Page1.hmi~Definition~0001.locres" />
+          <file name="Variables.hmivar" id="Page1.hmi~Variables~0000.hmivar" />
+        </folder>
+      </folder>
+      <folder name="45c9c8a1-2774-43fc-8e9e-e3faad332610">
+        <file name="45c9c8a1-2774-43fc-8e9e-e3faad332610" id="45c9c8a1-~45c9c8a1-2~0000" />
+        <folder name="Method1.method">
+          <file name="Metadata.meta" id="Method1.met~Metadata~0000.meta" />
+          <file name="Variables.var" id="Method1.me~Variables~0000.var" />
+          <file name="Code.st" id="Method1.method~Code~0000.st" />
+        </folder>
+      </folder>
+      <folder name="16d53019-0ed3-441f-83d6-fc6d0241e003">
+        <file name="16d53019-0ed3-441f-83d6-fc6d0241e003" id="16d53019-~16d53019-0~0000" />
+        <folder name="Function1.pou">
+          <file name="Metadata.meta" id="Function1.p~Metadata~0000.meta" />
+          <file name="Variables.var" id="Function1.~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="Function1~VersionHis~0000.usermeta" />
+          <file name="Description.html" id="Function1~Descriptio~0000.html" />
+          <file name="Description.rtf" id="Function1~Descriptio~0001.rtf" />
+          <file name="Code.st" id="Function1.pou~Code~0000.st" />
+        </folder>
+      </folder>
+      <folder name="90946828-4e35-474c-9d99-b84dd05eb2a7">
+        <file name="90946828-4e35-474c-9d99-b84dd05eb2a7" id="90946828-~90946828-4~0000" />
+        <folder name="FB1.pou">
+          <file name="Metadata.meta" id="FB1.pou~Metadata~0001.meta" />
+          <file name="Variables.var" id="FB1.pou~Variables~0001.var" />
+          <file name="VersionHistory.usermeta" id="FB1.pou~VersionHisto~0001.usermeta" />
+          <file name="Description.html" id="FB1.pou~Description~0002.html" />
+          <file name="Description.rtf" id="FB1.pou~Description~0003.rtf" />
+          <file name="Resources.locreslst" id="FB1.pou~Resources~0000.locreslst" />
+          <file name="Variables.var.locres" id="FB1.pou~Variables.va~0001.locres" />
+          <file name="User.locres" id="FB1.pou~User~0001.locres" />
+          <file name="Code.st" id="FB1.pou~Code~0001.st" />
+        </folder>
+      </folder>
+      <folder name="d6396fdd-b4fc-4efb-9251-b0ca595ce4ac">
+        <file name="d6396fdd-b4fc-4efb-9251-b0ca595ce4ac" id="d6396fdd-~d6396fdd-b~0000" />
+        <folder name="FUNCTION.pou">
+          <file name="Metadata.meta" id="FUNCTION.po~Metadata~0000.meta" />
+          <file name="Variables.var" id="FUNCTION.p~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="FUNCTION.~VersionHis~0000.usermeta" />
+          <file name="Description.html" id="FUNCTION.~Descriptio~0000.html" />
+          <file name="Description.rtf" id="FUNCTION.~Descriptio~0001.rtf" />
+          <file name="Code.st" id="FUNCTION.pou~Code~0000.st" />
+          <file name="Resources.locreslst" id="FUNCTION.p~Resources~0000.locreslst" />
+          <file name="User.locres" id="FUNCTION.pou~User~0000.locres" />
+        </folder>
+      </folder>
+      <folder name="46b0b9ea-6b7d-466b-b221-5e9d91a86760">
+        <file name="46b0b9ea-6b7d-466b-b221-5e9d91a86760" id="46b0b9ea-~46b0b9ea-6~0000" />
+        <folder name="FB2.pou">
+          <file name="Metadata.meta" id="FB2.pou~Metadata~0001.meta" />
+          <file name="Variables.var" id="FB2.pou~Variables~0001.var" />
+          <file name="VersionHistory.usermeta" id="FB2.pou~VersionHisto~0001.usermeta" />
+          <file name="Description.html" id="FB2.pou~Description~0002.html" />
+          <file name="Description.rtf" id="FB2.pou~Description~0003.rtf" />
+          <file name="Resources.locreslst" id="FB2.pou~Resources~0000.locreslst" />
+          <file name="Variables.var.locres" id="FB2.pou~Variables.va~0001.locres" />
+          <file name="User.locres" id="FB2.pou~User~0001.locres" />
+          <file name="Code.st" id="FB2.pou~Code~0001.st" />
+        </folder>
+      </folder>
+      <folder name="ffa1539f-26ff-4a7b-8e64-6f38f7db691a">
+        <file name="ffa1539f-26ff-4a7b-8e64-6f38f7db691a" id="ffa1539f-~ffa1539f-2~0000" />
+        <folder name="s.pou">
+          <file name="Metadata.meta" id="s.pou~Metadata~0000.meta" />
+          <file name="Variables.var" id="s.pou~Variables~0000.var" />
+          <file name="VersionHistory.usermeta" id="s.pou~VersionHistory~0000.usermeta" />
+          <file name="Description.html" id="s.pou~Description~0000.html" />
+          <file name="Description.rtf" id="s.pou~Description~0001.rtf" />
+          <file name="Code.st" id="s.pou~Code~0000.st" />
+          <file name="Resources.locreslst" id="s.pou~Resources~0000.locreslst" />
+          <file name="Variables.var.locres" id="s.pou~Variables.var~0000.locres" />
+          <file name="User.locres" id="s.pou~User~0000.locres" />
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Watch Window">
+      <file name="Document.ww" id="Watch Windo~Document~0000.ww" />
+    </folder>
+  </folder>
+</content>

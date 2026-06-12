@@ -1,0 +1,113 @@
+{ CustomGroupDefinition('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a', '') }
+
+VAR_INPUT
+    BUTTON_01 : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('4e0719f1-9a21-49b0-ab1a-7bca753de8bf')};
+    BUTTON_VIRTUAL : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('16b13fcd-91ca-4fbd-bce8-5329faf97148')};
+END_VAR
+
+VAR_OUTPUT
+    LED : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('35a522c3-a831-4de5-82d7-ae5b3c0dd537')};
+    MESSAGE : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('fb214dee-66f6-463f-9713-862a6108447e')};
+END_VAR
+
+VAR
+    PressStart : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('ae5033d3-fed2-43d0-adf6-ccfa772e577f')};
+    PressTime : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('67c05195-0624-4f5b-a4a4-63254ac533c9')};
+    bButton : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('a6f25af8-da50-4153-a6f2-77781ed29851')};
+    bLastButtonState : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('4f0463dc-8f77-4d98-87a2-aa94574099e2')};
+    bIsBlinking : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('b9bf86c3-b159-4991-9861-6f5314b0321c')};
+    BlinkReset : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('7e2c85d6-cf72-46e0-b9a5-424ab27580a5')};
+    TON_Blink : TON { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('197c8782-f631-4ffa-a13c-2cd90675b891')};
+END_VAR
+
+VAR_EXTERNAL
+    visual_counter : UINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('ed5c4f7a-75fb-4186-8b26-909a554518ed')};
+    tap_counter : UINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('8e4fb33c-aed4-48aa-8ee2-6ffca498c8a3')};
+END_VAR
+
+VAR
+    dummy : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('206ff9a5-ceb4-427d-bf17-5ced64b3d33f')};
+    fbRTC : RTC_S { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('689cfebd-229e-4b45-8dd0-65fa994717f3')};
+END_VAR
+
+VAR_EXTERNAL
+    sTime : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('91bb18d7-44e6-4613-a079-9ddb7a779d7d')};
+    bRTC_Ready : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('c414b8d8-2513-4024-ae96-ac7c04fab89d')};
+    nLastBlink : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('cb3e5d71-9c5a-4d71-8037-b20658097fc0')};
+    debug_toggle : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('2072d667-54cb-490a-b42a-0cae67e0ad60')};
+    bVirtualPulse : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('6798c4c2-251a-4f23-8819-dd3632552722')};
+    bLastVirtual : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('53ac58ec-322e-422e-aaf0-86794f043220')};
+    bVirtTrig : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('57ff68d4-c262-4da7-a951-55c5bc88e074')};
+    bLastButton : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('3a263dd4-d980-4a3f-9643-d60d3c28d595')};
+END_VAR
+
+VAR
+    rTrigVirt : R_TRIG { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('c425a54f-4ffb-481e-90de-1a6ced1796a6')};
+    rTrigPhys : R_TRIG { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('19454729-86e8-4c30-9d95-3b307f57250b')};
+END_VAR
+
+VAR_EXTERNAL
+    bWaitForRelease : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('f76a665a-d697-43fa-a6b8-18f2ea8978be')};
+    bLastPhys : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('531aa2b4-5bc9-4d3d-a0a4-8ab213c87f93')};
+    bLastVirt : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('922be82b-f033-4ced-a705-cc1dc33cad68')};
+    bVirtOneShot : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('f4a75110-e32c-4b99-910e-0a3c7e07d5e2')};
+    bPhysOneShot : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('2b008f14-1972-47cd-b851-4c2584ccefca')};
+    bAnyPress : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('3e3f621f-cc8c-478e-9c93-b44046d7376d')};
+    bVirtOld : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('68ce2f51-fafa-4cf1-844d-ab73b71ba07b')};
+    blinkPeriod : UINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('a56961bd-2c08-4691-832b-77807cfcc86c')};
+END_VAR
+
+VAR
+    fbParseTime : ParseRTC_Time { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('cce46eaa-d2db-4059-a9d3-e31aabe5a6af')};
+    nYear : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('777e47e4-9352-417e-9871-07007a5dc2b9')};
+    nMonth : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('17b63c43-e232-4cd0-9329-bc6ecde28367')};
+    nDay : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('610470b4-db4d-4a77-8adb-1317351dabfa')};
+    nMinute : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('3cfe0860-a69c-4d2b-9aed-adbf35338e72')};
+    nSecond : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('cb663a55-7c23-431c-b92f-7cd1b2bb1da1')};
+    bTimeValid : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('a833c35b-3ea1-4b2a-b068-2051b4f6b201')};
+    nMS : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('ea6e97b1-b9ad-49af-a426-0fa38ab26ffc')};
+    nHour : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('38ed1050-59d1-4396-bf03-b8aea17c9378')};
+    nDays : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('7805c54d-606c-4a03-92f0-45b2bc4e6a78')};
+    TimestampMs : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('0559e812-68fe-42c6-b1e0-b42bbbfc9d76')};
+    i : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('7ec15adf-b700-4341-a2c3-f33168454540')};
+    nCurrentTimestampMs : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('85da6c48-e94b-4f0c-a30b-6d1480e7b53e')};
+    nLastBlinkMicroseconds : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('da205537-b5dc-469b-b99c-e758f52de6df')};
+    nCurrentMicroseconds : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('d4f0ec62-779b-4dc0-82b5-a89d163c5fd6')};
+    PressTimestampMs : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('a99e92e6-fa03-40ed-bc9f-1fadc5c0c56f')};
+    CurrentTimestampMs : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('cf4bdeb9-944e-4471-9ac8-034bc3ab670a')};
+    bTimeParsed : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('111e3442-1ff1-4dd4-b8af-442cf5c26f34')};
+    Valid : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('8b15ae26-e512-47e1-acb8-c7162f3632a6')};
+    INT_TO_ULINT : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('e497151f-0beb-4bba-bced-536f818e6c6f')};
+    Millisecond : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('e94126a3-eff3-451f-b81e-3c04fbe87c99')};
+    Second : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('a7b32ef0-5ea4-4a84-8615-02ae0a0ee8c2')};
+    Minute : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('96328dad-65c6-46c1-b27a-c16981db8bf8')};
+    Hour : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('9a24ff45-cc8f-4807-8bbc-7d1a2da63b63')};
+    DINT_TO_ULINT : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('6b7576d9-aed3-4675-9ab5-4376548ff2c5')};
+    Days : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('c558866f-8f52-4841-bc1d-6cd71ac139a9')};
+    Day : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('cee0bbbc-f10b-4dfe-a1af-12b2a55d1cd2')};
+    MonthDays11 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('f8ba89dc-2094-42ce-8a25-aaafc6431308')};
+    Month : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('51a9e8a8-78a4-4577-910c-81169e3c6f50')};
+    MonthDays4 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('dacea02a-8cdb-46be-b3c8-339ea16fa611')};
+    MonthDays2 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('855d3b6d-0f4c-480a-8f1c-1329942a1461')};
+    MonthDays1 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('e703b079-8c8c-4d0c-9617-25da500a3272')};
+    MonthDays6 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('0120bdca-f7f8-4a56-8c2c-582580363dd0')};
+    MonthDays8 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('58b4f828-5007-4322-bb5d-0f195c4b98a6')};
+    MonthDays10 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('52b07a9c-7b4a-40c2-9e6c-21b97da46201')};
+    MonthDays3 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('5c9cd26b-1638-40cd-beac-0de68a6a6b26')};
+    MonthDays5 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('26e8f3d8-d930-4744-ad4c-47f6d09271f9')};
+    MonthDays7 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('0ea1369b-fad9-42c7-8d18-5742384aacf1')};
+    MonthDays9 : DINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('d90dbc90-d49c-435e-a893-c724f21dda60')};
+    Year : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('92884857-24e3-4a0f-ba60-e9415c49bb40')};
+    MonthDays12 : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('84ac20e9-7c2f-47da-93c0-215088391c13')};
+    sYear : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('f48f94f1-9b83-4097-96fc-4b719526f9b4')};
+    sMonth : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('d62c3366-2ddf-4350-bb4e-f3922cc7b992')};
+    sDay : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('e59f804e-d42c-4341-b14b-25cdfef4055a')};
+    sHour : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('c6a96e73-a726-40cc-982a-b88a8cb1147d')};
+    sMinute : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('17e9b4b6-7a63-44cb-a2ef-e33e2500ad1e')};
+    sSecond : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('fa6afaa5-1bed-4ccc-938c-f17052e37b75')};
+    nDotPos : INT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('31821420-d110-4ff9-b795-0bce06193bf0')};
+    sMS : STRING { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('ede553a8-ed38-47b3-9489-2d3e1cb3bad8')};
+    nElapsedSincePressMs : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('ae5f9a75-c2b0-4fe6-ab41-668357300412')};
+    bLongPressDetected : BOOL { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('42fdab6f-99b5-41c1-a9cf-1c482293dd59')};
+    nPressTimestampMs : ULINT { CustomGroupReference('d879d638-e7f1-4a28-a2ab-b4cf2ec7bb4a') } {Id('8c7cc4ba-ed07-4cc9-b2ba-77420aa8000a')};
+END_VAR

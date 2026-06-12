@@ -1,0 +1,158 @@
+{ CustomGroupDefinition('3b278276-b7cf-49df-9310-d7f9b6ebd036', '') }
+
+VAR_INPUT
+    LEN : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('8d6770c3-4fa7-4591-8913-e22d7308c1f9')};
+END_VAR
+
+VAR_EXTERNAL
+    sTime : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('57e24803-524f-4a34-ba8a-b77423891213')};
+END_VAR
+
+VAR_OUTPUT
+    Valid : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('2c0b8204-1976-4346-bf68-4f004ddc3b58')};
+    TimestampMs : ULINT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('70cc4bd4-80af-4401-8cac-9d1c71a5fe44')};
+END_VAR
+
+VAR
+    sYear : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('931b130c-ca28-4a28-ae57-109b438232aa')};
+    sMonth : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('07c60b4e-348a-4af1-8cf5-dd6ea12d0b3e')};
+    sHour : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('ea345062-e35d-4c03-9edf-2a0ddbc5e2c4')};
+    sDay : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('80eb27d9-3ebd-440d-99aa-59ffc489b769')};
+    sMinute : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('5dbd2db2-9d44-4c9a-8644-cc3f59393a31')};
+    sSecond : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('b8d96fe8-0a41-4952-874f-7e4ce94ffc04')};
+    nDotPos : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('43aab87a-42f6-497b-ab35-2a636348fbc3')};
+    sMS : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('fd2b1ba0-3c87-4dee-ab85-ba21a6a446aa')};
+    Year : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e2360734-ab99-455c-93e8-5e4c47d87b31')};
+    Month : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9965d299-4b6e-4164-bb30-ad7a40f8a335')};
+    Hour : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('5878f747-eae7-4528-b61a-6e4dce7b0cb7')};
+    Minute : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('1bce9a80-89f7-4d19-b2ee-07c333b60940')};
+    Day : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('7d6db6a5-977b-4e8a-9a0c-b49b754886de')};
+    Second : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('ff1c5c23-717d-4ace-bfc1-b974571af825')};
+    Millisecond : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('6f9a1f9c-ff25-4d8a-b145-8fa1cacc147a')};
+    MonthDays1 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('8ea123db-38f2-4013-ac7d-cb021428cbaf')};
+    MonthDays5 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('469196d8-51ef-4cbc-9da5-dd06cd9758b4')};
+    MonthDays8 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('c41e239d-a006-4798-b976-fd8e05a7e948')};
+    MonthDays6 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('b3dc4ea3-90c8-4311-81e8-c63be88d5ad3')};
+    MonthDays9 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('4796c50b-444e-453a-8df3-6724a99983a2')};
+    MonthDays12 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('4e7a6a5f-f80a-4f65-a4b3-905fdbc18814')};
+    MonthDays10 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('d0a249ff-7353-4c2d-8422-6c070ff260fa')};
+    MonthDays7 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('1ee760d2-5b67-432f-94e2-724b3a776a39')};
+    MonthDays4 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('341beb9b-c740-4251-b6d6-303bd10b04ed')};
+    MonthDays2 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('06742f12-859d-4dc2-b961-2439cc7c6423')};
+    MonthDays11 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('56b7d9e0-9cde-419c-ab91-a6ab0f6d3957')};
+    MonthDays3 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f42d9edd-06ae-4c62-862e-32e410afac61')};
+    Days : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('8c7f8e10-e5a3-4161-a103-0fdd1c57bdd0')};
+    i : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f30fc678-7fa9-486e-968f-cee05a925eb8')};
+    fbRTC : RTC_S { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('b843552d-1d57-4733-b2ec-b62f5d05bbb7')};
+    sYearTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('5fbb706c-8ea7-400d-961f-a25751e16c27')};
+    sMonthTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('6e787a00-8ae1-42e3-97ef-6b0dcfd97f66')};
+    sDayTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('6f0c9eda-f8c3-49dd-8c0d-f7890696ff14')};
+    sHourTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('ec57f270-2e70-4497-9302-ff4fd6d882ee')};
+    sMinuteTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('1939b24a-be25-4c91-b00a-12db0851901e')};
+END_VAR
+
+VAR_INPUT
+    EN_RTC : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('69162fa0-7492-4adf-8ddf-2789fba5e529')};
+END_VAR
+
+VAR_EXTERNAL
+    bRTC_Ready : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('36439ad9-84a0-48aa-aa24-04e40e870101')};
+END_VAR
+
+VAR
+    sINT_TO_STRING : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('0190df65-ddc6-4623-af82-b9e0ef8027c5')};
+    sSecondTemp : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('77806555-c500-43c3-8122-272a80464a90')};
+    MonthDays : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('40e51b3c-85fb-4e34-a42c-1ebc170e5864')};
+    MS : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e4546e1e-835f-44c5-80c8-2943a1a20ceb')};
+    nYear : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('3b2d767c-fabe-4096-887e-b47e217c11a7')};
+    nDays : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('adf0cd1a-f830-4055-a297-6969ef91d2f8')};
+    nMonth : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e79f0a96-7bdd-4c09-be00-fee7ecfa6731')};
+    nDay : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f31da16d-9a8e-4156-8224-16da0a3d35b2')};
+    fbParseTime : ParseRTC_Time { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('105578e8-8941-437f-9b3f-3c834f413ab2')};
+    nHour : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('d2117bf4-5837-48e5-910e-84629f333295')};
+    nMinute : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('439d5659-28fe-476a-872c-e6810d761671')};
+    nSecond : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('80220a70-d710-46db-91b1-199a6d566a6e')};
+    nMS : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('84196a6e-6e86-4dba-abed-184b9d9f3d92')};
+    bTimeValid : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e9fb3372-2492-42a4-876e-1e48886a869f')};
+    nMonthDays1 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('5d05df01-dd6e-4c59-8e36-83954c44d2fd')};
+    nMonthDays2 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('345a8cc5-e23b-4ff7-8029-1650f573b20b')};
+    nMonthDays4 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('46202a87-db8e-4a5f-9150-fecaf7b5716f')};
+    nMonthDays7 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('c9e3ea73-3602-4914-998a-52c14ce4345b')};
+    nMonthDays9 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('2d576936-c5a1-4a61-bb70-bda9d3659500')};
+    nMonthDays8 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9b2ab0a3-5263-4eab-b5ad-62e0797279d2')};
+    nMonthDays10 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('a1e25079-646b-4880-9359-54979dcfbb36')};
+    nMonthDays11 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e2011caa-7db9-4c00-ac5c-e1ca39ec0584')};
+    nMonthDays3 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('fc4a0175-d7b5-4aaf-a7ae-505b74999737')};
+    nMonthDays5 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('1ae5419f-81a8-480b-aca2-3ab04dd5bf8e')};
+    nMonthDays6 : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('b97973c8-7c52-4b7e-8df0-5870a960cbc1')};
+END_VAR
+
+VAR_OUTPUT
+    bIsBlinking : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('3c332540-4c4f-4e81-b1dc-d18d2a37acfb')};
+    LED : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('4e3602ef-2168-4547-9054-a7dea89d41e8')};
+END_VAR
+
+VAR
+    bWaitForRelease : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('a68a3c25-3fb3-4182-a201-01ed43e53017')};
+    nLastBlink : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('8a06fba6-f022-4b76-9ddf-f263e13af148')};
+    tap_counter : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('eb76768e-7803-48ef-9e81-34239926b21f')};
+    visual_counter : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9c940fbc-ca3e-4e80-aec3-d69c29707bbb')};
+END_VAR
+
+VAR_INPUT
+    BlinkReset : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f780c3eb-aefa-4d80-b7ef-7fbabba8cb70')};
+END_VAR
+
+VAR_EXTERNAL
+    TimeZone : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('fd8e153f-31c3-441b-990c-0e5b0fa48b58')};
+    nTimeZoneOffset : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('533862a9-0891-4cbf-811a-6dbc86b91b2e')};
+END_VAR
+
+VAR
+    bConvertToMS : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('ae3fb4e7-bf10-4790-bd99-6cdd422ddf27')};
+END_VAR
+
+VAR_EXTERNAL
+    sCustomDate : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('eedff408-d8cc-446f-b322-f971dccfa6c6')};
+END_VAR
+
+VAR
+    nPos : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('efcd1563-5640-4f22-90ed-3c6cbb08c48c')};
+    sHh : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('7462822a-d8dd-4686-9b09-4d71416d8e18')};
+    sYyyy : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('4b03d1fe-b6db-49fb-8a32-b96d2eef122a')};
+    nCustomMonth : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('d4ce5159-1035-4fb3-bca5-8cb294b5bd2b')};
+    nCustomDays : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('d9e74d6e-ce2a-40d1-8155-264c0525e572')};
+    nCustomYear : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('8fa7cff9-3035-475b-a546-ab0b148e808a')};
+    nCustomSecond : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('b66ac111-94e9-43c5-8da9-c2627fcaf34e')};
+    nCustomMinute : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('3baa8834-2414-437f-8b6f-f5c1f2bdf57e')};
+    nCustomHour : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('88fc4d65-7e14-40c2-91eb-3064f2a0115b')};
+    nCustomDay : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('23822389-cc9d-4dd9-bad7-d0c660422744')};
+    sSTRING_TO_INT : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('25ab36db-77ab-4f00-96e9-adeae8c696fd')};
+    sMm : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('29fded2d-bd39-46b0-a944-915747c1b563')};
+    sSs : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('535696f1-7817-4c36-b2ad-3f2984840ca6')};
+    sDd : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('85ee92cd-42b8-4496-9809-0ac30835a7b4')};
+    sMn : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('6abcf799-6876-4860-b222-10780c45846e')};
+    nTempMS : ULINT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9d07504c-a27b-4150-91a2-75cf4509b8fc')};
+END_VAR
+
+VAR_EXTERNAL
+    ulInputMS : ULINT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('d9505d5a-a8b0-43e9-9cf7-226d1d39ea66')};
+    sOutputDate : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('e7c5913a-3710-4d0b-934b-e2dbcda7cd2f')};
+END_VAR
+
+VAR
+    sTemp : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9e6ae635-445a-4bbf-a005-9dfdc4f41652')};
+    sDINT_TO_STRING : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('9a9d356f-54ad-4897-b6db-3ccc187010ba')};
+    DaysInMonth AT %I* : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('4d13c785-6bc4-44b1-80e0-43a1c407399e')};
+END_VAR
+
+VAR_EXTERNAL
+    sTmp : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('33783de1-11ee-4c10-8389-e955f41a1a85')};
+    sTmp2 : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f6323b1c-ad59-46f9-8149-bb8c38f49731')};
+    sYy : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f4be37f2-b054-452f-bbd5-f26a591e82ae')};
+    sMo : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('130c9d8c-1b43-419e-8b85-366a53d4f490')};
+    nMonthDays : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('824b2f22-0277-4584-ad9d-8cd81b71739f')};
+    UseManualRTC : BOOL { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036'), TRANSLATE } {Id('e6de7347-2ad9-43ca-898e-901e0bd61e7d')};
+    ManualRTC : STRING { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('fe49dd22-b5bd-4596-b05a-d6324f5aa3c4')};
+    TimezoneOffset : INT { CustomGroupReference('3b278276-b7cf-49df-9310-d7f9b6ebd036') } {Id('f9d0c43b-ede4-4914-b959-ea8d39dad0e1')};
+END_VAR

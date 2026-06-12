@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PlmConfiguration>
+	<ComponentInstances id="d4efc119-1198-4f4f-9a51-6ea97fd8fe6e" contextUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/46f5af0f-ece9-4640-92b7-474bfd27dc56">
+		<ComponentInstance id="d8bcc277-0d0e-49ce-b67e-3c8c336b2d0f" name="Arp.Plc.Eclr" libraryName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="6fb9f9ca-25a0-493a-82f9-9fdac46c155e" name="Arp.Io.EthernetIP" libraryName="Arp.Io.EthernetIP" componentType="ControllerComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="aceef819-9f65-4d57-a96a-829bbe5da3ab" name="Arp.Services.Ehmi" libraryName="Arp.Plc.Ehmi" componentType="EhmiComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="c5a1efef-1b5e-48d7-99ea-d891eb63bb6a" name="Arp.Services.AlarmServer" libraryName="Arp.Plc.Alarm" componentType="AlarmProgram" comment="" isReadOnly="true" />
+		<ComponentInstance id="8ab08324-43d9-423b-9efb-ce1c74955ff2" name="Arp.Io.PnC" libraryName="Arp.Io.Pn" componentType="ControllerComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="0a14f473-dca4-4d6b-9c31-b9a427105a18" name="Arp.Io.AxlC" libraryName="Arp.Io.Axl" componentType="ControllerComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="26b39d9f-4d61-4320-b9e8-0ffe7b7baafb" name="Arp.Io.IbM" libraryName="Arp.Io.Ib" componentType="ControllerComponent" comment="" isReadOnly="true" />
+	</ComponentInstances>
+</PlmConfiguration>

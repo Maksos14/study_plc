@@ -1,0 +1,14 @@
+{ CustomGroupDefinition('eb95ad15-efdf-425f-b1f7-cad914f82e05', '') }
+
+VAR_EXTERNAL
+    bIsBlinking : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('fd348598-50ff-48c3-b6dc-bb9d57c59c48')};
+    bLastButtonState : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('028e38dd-d89a-4075-8c37-e57d5f3f1be6')};
+    BUTTON_01 : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('97737f1d-f865-4f7f-b069-c2ca4c75a6e2')};
+    BUTTON_VIRTUAL : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('c96c8079-8b15-42c0-86ba-3a262873b082')};
+    counter : UINT { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('fb87ad38-92cb-4aac-a2de-7bfd96d20931')};
+    visual_counter : UINT { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('8d82f5c7-9708-4ece-9127-46b204c4313b')};
+    TIMER : UINT { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('91c3396f-74a8-40ad-b2c2-3bd5fd9ed3a2')};
+    MESSAGE : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('eab0f88a-bcc3-4569-b13e-add472a805f2')};
+    LED : BOOL { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('1b446ec7-6ecc-4b5d-bee2-145b4a99ecf5')};
+    tap_counter : UINT { CustomGroupReference('eb95ad15-efdf-425f-b1f7-cad914f82e05') } {Id('63809bfb-97a4-4f93-b79b-b0c3badf1e28')};
+END_VAR

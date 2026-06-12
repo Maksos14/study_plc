@@ -1,0 +1,36 @@
+{ CustomGroupDefinition('86cfc347-5607-405e-9afb-cdf64c624017', '') }
+
+VAR_INPUT
+    Year : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('70bb0202-eabc-4b23-b47f-a6f7e5414afd')};
+    Month : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('1526e0f8-9578-48d4-a9d6-29e3b3618252')};
+    Day : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('ec238d01-6f01-4b66-ab25-b704ff77bb9e')};
+    Hour : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('3bf774c5-a55c-47bd-9c26-29b2707f6ef6')};
+    Minute : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('073ce2b5-4e3d-41bc-9abe-a6c9f777258c')};
+    Second : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('275fd2ff-8ce6-4c4e-bbeb-fe12829f83b8')};
+    Millisecond : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('d06b8f1b-9532-4a1a-8bb4-6c535709f9b6')};
+END_VAR
+
+VAR_OUTPUT
+    TimestampMs : ULINT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('5e18ebce-5e26-4b86-9e7f-f8ec5f1422bd')};
+END_VAR
+
+VAR
+    Days : DINT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('524b0be8-9baa-42cc-a1e2-966c2e57d860')};
+    i : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('fe576651-cf45-4d2c-8bff-d4df8445a046')};
+    MonthDays1 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('5118764f-25aa-4ff2-8234-e1f57d2d3e7f')};
+    MonthDays2 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('1ab2c56b-4c75-491f-bc29-ba333d315062')};
+    MonthDays3 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('da0ae2d6-ed19-4086-82f5-b40a8f12c65e')};
+    MonthDays4 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('f7d125cf-0ee3-4eec-ba26-263707c2f6a0')};
+    MonthDays5 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('b603cf9d-1f56-4a42-b4c1-3b09e89ea432')};
+    MonthDays6 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('771bdd4c-dc7b-4c62-b652-ef435ad0e955')};
+    MonthDays7 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('1845af22-1825-4e78-ac82-ea807130fa88')};
+    MonthDays8 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('de581b35-b327-4c73-a2a3-747ffbcb89e2')};
+    MonthDays9 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('bbd68693-4310-4cd0-a465-0ae910676efb')};
+    MonthDays10 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('31269d78-8529-40db-ab50-81e3ba7a4a27')};
+    MonthDays11 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('f6bb2d1f-c419-40c8-aa57-aa863895640a')};
+    MonthDays12 : INT { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('33197ee2-7fcb-4191-9aab-a3195d4db147')};
+END_VAR
+
+VAR_EXTERNAL
+    TIME_TO_DINT : BOOL { CustomGroupReference('86cfc347-5607-405e-9afb-cdf64c624017') } {Id('fd94956a-b23a-4bb5-b728-0efea7ad6a04')};
+END_VAR

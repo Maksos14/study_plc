@@ -1,0 +1,40 @@
+{ CustomGroupDefinition('ff027208-816e-4bae-8d60-82950bdd26b4', '') }
+
+VAR_INPUT
+    sTime : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('370810b9-d8ce-4693-b016-e1c349ea9af9')};
+END_VAR
+
+VAR_OUTPUT
+    Year : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('f2a85ef9-6b1d-4cdb-a26a-4599f89fb160')};
+    Month : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('f750a97c-63d8-4e98-8e34-ff9d5a3f442c')};
+    Day : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('815169e4-50f7-4471-82c4-1a268c26556d')};
+    Hour : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('e9aa74bd-29ec-4a14-805a-ce6ad08d0fe5')};
+    Minute : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('39d76eb6-83ee-4ee9-bfc4-ec3771239c59')};
+    Second : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('8002beec-24f4-4f3c-bc58-2549044a082c')};
+    Millisecond : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('bef2f322-384e-477c-9147-44353bd0fd5b')};
+    Valid : BOOL { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('17c29cb7-d74e-4c23-bbc9-132ea5c7f9c0')};
+END_VAR
+
+VAR
+    sYear : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('e4f9359d-58dd-4b80-84e6-714bf6d56bc6')};
+    sMonth : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('392083cd-2485-4a68-9ac3-12a84e1ab5f9')};
+    sDay : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('13daf258-6c16-42c0-8010-b1d773bc36a7')};
+    sMinute : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('513b5860-c258-4629-8897-662158c5bf67')};
+    sSecond : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('7b1949aa-e429-438b-8367-18dc388d68a0')};
+    sHour : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('516230af-e994-4c1b-a9c9-f6c72b0d7727')};
+    STRING_TO_INT : BOOL { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('eea7d005-8153-408b-a852-7b34234430b5')};
+    sMS : STRING { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('2e6383b0-294b-474a-8285-344cab278476')};
+    nDotPos : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('fa8b7165-f5c4-4b84-998d-354a66c66966')};
+    nLen : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('2639a40c-b33c-461e-b5a5-7ba6dedb91ad')};
+    nMinute : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('86abf6a8-7959-4f76-97ea-ead3797c9cdc')};
+    nHour : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('48cca547-1d1f-4e92-8a3b-e408207d64d1')};
+    nDay : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('a2868c9d-fb26-4cc5-b5b9-739609f44cf7')};
+    nMonth : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('46d375c6-1e58-4462-8a32-09ca3d14506a')};
+    nYear : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('7e93e88b-a364-46ff-b433-8f078dd5a72c')};
+    nSecond : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('1f4e089c-d02f-40d4-984d-f8d875afc53e')};
+    nMS : INT { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('4e3827c9-a372-4274-a293-f12a4c0f2486')};
+END_VAR
+
+VAR_EXTERNAL
+    TRIM : BOOL { CustomGroupReference('ff027208-816e-4bae-8d60-82950bdd26b4') } {Id('7e8fd91a-6666-4f1c-b8eb-3a0792942019')};
+END_VAR

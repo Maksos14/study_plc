@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-06-09 08:15:25Z" DisplayName="dio-1 : AXL F DI16/1 DO8/2-2A 2H">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="01eeb352-c799-488c-ba2a-fbe7da475088" ParentId="b17de4c2-2cbe-4868-b38e-7225fdea4f64" Position="0" Kind="Instance" />
+</RestoreDataItem>

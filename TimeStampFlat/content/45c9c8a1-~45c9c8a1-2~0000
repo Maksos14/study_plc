@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-06-10 10:46:27Z" DisplayName="Method1">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="45c9c8a1-2774-43fc-8e9e-e3faad332610" ParentId="54aa3c2c-178a-43ce-90f9-94ca33f38e66" PredecessorId="4f471aad-d494-4522-9f87-88f67a753b6d" Position="9" Kind="Type" />
+</RestoreDataItem>

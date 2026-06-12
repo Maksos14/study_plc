@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>PouFolder</FolderType>
+   <ContentType>FunctionBlock</ContentType>
+   <Kind>FunctionBlock</Kind>
+   <Usings></Usings>
+   <Id>dd5a80f7-6c3e-4a0a-bd3b-23ff3652d77f</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>6c207863-ba17-4fc8-b9e2-b5d9f46b1f27</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>6290d64e-b9da-48ef-b925-71d8f421c107</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

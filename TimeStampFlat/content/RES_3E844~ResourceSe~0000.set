@@ -1,0 +1,32 @@
+{ Type('AXCF2152') }
+RESOURCE IEC 61131-3
+{ DeviceProfileWorksheet('DeviceProfile', Id := '7723f035-d312-47cd-bf27-19ccd6c2afb1') }
+{ DeviceProfile(
+    Name := 'RES_3E8444E273CD403F835D179846909252',
+    Parent := ( Name := 'AXCF2152', Version := '2024.0.0'), 
+    UpdateType := 'Manual',
+    DownloadFiles := 
+    [
+    ],
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '33554424',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.4.222 -p41100 -to2000',
+    FilesIni := 
+    [
+    ],
+    CommunicationType := 'TcpIp'
+)}
+
+
+TASK task10ms (INTERVAL := T#10ms, PRIORITY := 0) { Watchdog(T#100ms), Id('d64529f5-c669-4f2c-a991-d2e243e2a4c4') };
+
+PROGRAM main_prg1 WITH task10ms : main_prg { Id('232d8749-ab59-4b91-8e3d-402bb20efac2') };
+
+END_RESOURCE

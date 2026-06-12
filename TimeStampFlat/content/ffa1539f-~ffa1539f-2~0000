@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2026-06-11 09:57:24Z" DisplayName="s">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="ffa1539f-26ff-4a7b-8e64-6f38f7db691a" ParentId="d31eab2b-b1a0-4c93-bdaf-090bc38c49f4" PredecessorId="92ba1e8b-b700-40f8-9c4d-84f9b64c5bb9" Position="7" Kind="Type" />
+</RestoreDataItem>

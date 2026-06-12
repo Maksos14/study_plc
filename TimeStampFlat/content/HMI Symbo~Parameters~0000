@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SymbolParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters Name="LED" Id="f85086a8-52e5-43ed-952f-1f6a4bc3c7f8" Type="Bool" Comment="" />
+</SymbolParameters>
